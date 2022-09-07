@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(234, 242, 238);
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 50px;
+    width: 426px;
+    height: 896px;
+    background-color: #fff
+    
+}
+
+.card__title {
+    margin-top: 50px;
+}
+
