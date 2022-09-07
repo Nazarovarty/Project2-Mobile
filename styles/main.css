@@ -6,6 +6,7 @@ body {
 }
 
 .card {
+    position: relative;
     padding: 20px;
     border-radius: 50px;
     width: 426px;
@@ -16,7 +17,7 @@ body {
 }
 
 .card__title {
-    margin-top: 50px;
+    margin-top: 400px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -24,7 +25,28 @@ body {
 .card__sub {
     font-size: 15px;
     font-weight: 400;
-    margin-top: 213px;
+    margin-top: 168px;
+}
+
+.card-img1 {
+    margin-left: auto;
+    margin-right: auto;
+    translate: -5% -36%;
+    position: absolute;
+}
+
+.card-img2 {
+    margin-left: auto;
+    margin-right: auto;
+    translate: 8% -16%;
+    position: absolute;
+}
+
+.card-img3 {
+    margin-left: auto;
+    margin-right: auto;
+    translate: -1% 2250%;
+    position: absolute;
 }
 
 p {
