@@ -1,12 +1,12 @@
 body {
+    margin-top: 153px;
     display: block;
     font-family: 'Inter', sans-serif;
     background-color: rgb(234, 242, 238);
     
 }
 
-.card {
-    position: relative;
+.cart-card {
     padding: 20px;
     border-radius: 50px;
     width: 426px;
@@ -17,9 +17,10 @@ body {
 }
 
 .card__title {
-    margin-top: 400px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 350px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
     
 .card__sub {
@@ -28,40 +29,37 @@ body {
     margin-top: 168px;
 }
 
-.card-img1 {
-    margin-left: auto;
-    margin-right: auto;
-    translate: -5% -36%;
+.cart-card__img {
+    position: absolute;
+    transform: translate(-5%, -36%);
+}
+
+.cart-card__img2 {
+    position: absolute;
+    transform: translate(8%, -20%);
+}
+
+.cart-card__img3 {
+    margin-top: 10px;
     position: absolute;
 }
 
-.card-img2 {
-    margin-left: auto;
-    margin-right: auto;
-    translate: 8% -16%;
-    position: absolute;
-}
-
-.card-img3 {
-    margin-left: auto;
-    margin-right: auto;
-    translate: -1% 2250%;
-    position: absolute;
-}
-
-p {
+.about {
     font-size: 16px;
     font-weight: 600;
 }
 
+.description {
+    margin-top: 10px;
+}
+
 .btn-keeper {
-    margin-top: 102px;
+    margin-top: 140px;
     text-align: center;
 }
 
 
 .btn {
-    
     padding-top: 14px;
     padding-bottom: 18px;
     padding-left: 129px;
