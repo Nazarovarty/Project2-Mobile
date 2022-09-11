@@ -1,6 +1,6 @@
 body {
-    
-    display: block;
+    display: flex;
+    justify-content: center;
     font-family: 'Inter', sans-serif;
     background-color: rgb(234, 242, 238);
     
@@ -13,7 +13,7 @@ body {
     height: 896px;
     background-color: #fff;
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.25);
-    margin: auto;
+    
 }
 
 .card__title {
@@ -89,5 +89,12 @@ body {
 
 .btn:hover {
     background-color: #b2582b;
+}
+
+@media(max-width: 545px) {
+    .cart-card {
+        
+        font-size: 14px;
+    }  
 }
 
