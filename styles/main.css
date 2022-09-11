@@ -1,5 +1,5 @@
 body {
-    margin-top: 153px;
+    
     display: block;
     font-family: 'Inter', sans-serif;
     background-color: rgb(234, 242, 238);
@@ -26,7 +26,7 @@ body {
 .card__sub {
     font-size: 15px;
     font-weight: 400;
-    margin-top: 168px;
+    margin-top: 68px;
 }
 
 .cart-card__img {
@@ -66,7 +66,7 @@ body {
 }
 
 .btn-keeper {
-    margin-top: 140px;
+    margin-top: 60px;
     text-align: center;
 }
 
